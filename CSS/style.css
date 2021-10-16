@@ -38,3 +38,30 @@ header{
     background-color: #2D1D1A;
     padding: 0px 12px;
 }
+
+.main-content{
+    background-image: url("../IMG/BACKGROUND_MAIN.png");
+    background-color: #909280;
+   }
+
+.main-body{
+    width: 300px;
+    height: 580px;
+    border: 1px solid red;
+    margin: auto;
+}
+
+footer{
+    background-color: #2D1D1A;
+    height: 50px;
+}
+
+
+.copy {
+    color: #F0E5E5;
+    padding: 13px;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 100;
+    }
