@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: bisque;
+}
+.test {
+    color: blue;
+}
+
+.top-nav ul li { 
+    list-style: none;
+    display: inline-block;
+}
+
+.top-nav a {
+    text-decoration: none;
+    color: #F0E5E5;
+    padding: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.active {
+    font-weight: 300!important;
+    font-style: italic;
+
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2D1D1A;
+    padding: 0px 12px;
+}
