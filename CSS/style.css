@@ -1,13 +1,14 @@
+:root {
+    --primary-color: #f2f2f2;
+
+}
+
 body{
     margin: 0;
     padding: 0;
-}
-
-h1{
-    color: bisque;
-}
-.test {
-    color: blue;
+    background-image: url("../IMG/BACKGROUND_MAIN.png");
+    background-color: #909280;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .top-nav ul li { 
@@ -40,20 +41,76 @@ header{
 }
 
 .main-content{
-    background-image: url("../IMG/BACKGROUND_MAIN.png");
-    background-color: #909280;
+    height: 100vh;
+    background-image: url(../IMG/homepage_photos.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    align-content: flex-start;
    }
 
-.main-body{
-    width: 300px;
-    height: 580px;
-    border: 1px solid red;
-    margin: auto;
+.first-body{
+    padding-top: 40vh;
+    color: var(--primary-color);
+}
+
+.first-body h1{
+    font-size: 53px;
+    font-weight: 100;
+    margin: 0;
+}
+
+.first-body h2{
+    font-size: 18px;
+    font-weight: 100;
+    margin: 0;
+    padding-left: 40px;
+}
+
+.first-body h3{
+    font-size: 36px;
+    font-weight: 600;
+    margin: 0;
+    padding-left: 80px;
+}
+
+.first-body h4{
+    font-size: 53px;
+    font-weight: 100;
+    margin: 0;
+    padding-left: 90px;
 }
 
 footer{
     background-color: #2D1D1A;
     height: 50px;
+}
+
+.first-body button{
+    background-color: #D58B68;
+    padding: 20px 40px;
+    border: none;
+    color: var(--primary-color);
+    font-weight: 100;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 12px -12px 0px #60594e;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.second-body{
+    color: var(--primary-color);
+    font-size: 16px;
+    font-weight: 100;
+    font-style: italic;
+    margin-left: 300px;
+
 }
 
 
