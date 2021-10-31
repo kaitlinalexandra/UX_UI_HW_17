@@ -9,6 +9,47 @@ body{
     background-image: url("../IMG/BACKGROUND_MAIN.png");
     background-color: #909280;
     font-family: 'Montserrat', sans-serif;
+    color: #F0E5E5;
+}
+
+body.secondary{
+    background-color: #EAD3CB; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#EAD3CB, #D7C6B7, #A1A4A4, #4D5657);
+    background-repeat: no-repeat;
+    height: 100%;
+    color: #F0E5E5;
+}
+
+.main-art{
+    width: 70%;
+}
+
+.mt-60{
+    margin-top: -60px;
+}
+
+.h-90vh{
+    min-height: 90vh;
+}
+
+
+nav.navbar{
+    background-color: #2D1D1A;
+    color: #F0E5E5;
+    
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #F0E5E5 !important;
+    padding: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.navbar-toggler{
+    color: #F0E5E5 !important;
 }
 
 .top-nav ul li { 
@@ -18,7 +59,7 @@ body{
 
 .top-nav a {
     text-decoration: none;
-    color: #F0E5E5;
+    color: #F0E5E5 !important;
     padding: 12px;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
